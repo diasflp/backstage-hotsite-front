@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-// import { Container } from './styles';
-export default class Home extends Component {
-  render() {
-    return <p>Home</p>;
-  }
-}
+const Home = () => {
+  return <p>Home</p>;
+};
+
+export default Home;
